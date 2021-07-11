@@ -4,4 +4,26 @@ $("#currentDay").text(today.format("MMM Do, YYYY"));
 
 
 
-let saveButton = document.querySelector ("#save")
+var eventFormEl = $('#Todo');
+var eventListEl = $('#userinput');
+
+function handleFormSubmit(event) {
+    event.preventDefault();
+
+    var myevent = $('input[name="plan-input"]').val();
+
+    if (!myevent) {
+        console.log('No event added!');
+        return;
+      }
+      var myeventlistEl = $(
+
+      );
+      myeventlistEl.text(myevent);
+
+      myeventlistEl.append(
+        
+      );
+      eventlistEl.append(myeventlistEl);
+      
+}
