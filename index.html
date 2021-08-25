@@ -29,12 +29,13 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <main class="container">
+
       <!-- Timeblocks go here -->
 
       <form id="Todo">
         <div class="row" >
         <label id="hour-9">9AM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
+        <input type="text" class="col-9" id="userinput" onkeyup='saveValue(this);' name="plan-input" placeholder="Enter item name" />
         <button id="save1" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
       </div>
       </form>
@@ -42,16 +43,16 @@
 
       <form id="Todo2">
         <div class="row" >
-        <label id="hour-10">10AM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
-        <button id="save2" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
-      </div>
+          <label id="hour-10">10AM</label>
+          <input type="text" class="col-9" id="userinput" onkeyup='saveValue(this);' name="plan-input" placeholder="Enter item name" />
+          <button id="save2" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
+        </div>
       </form>
                   
       <form id="Todo2">
         <div class="row" >
         <label id="hour-11">11AM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
+        <input type="text" class="col-9" id="userinput" name="plan-input" onkeyup='saveValue(this);' placeholder="Enter item name" />
         <button id="save3" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
       </div>
       </form>
@@ -59,7 +60,7 @@
       <form id="Todo3">
         <div class="row" >
         <label id="hour-12">12PM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
+        <input type="text" class="col-9" id="userinput" name="plan-input" onkeyup='saveValue(this);' placeholder="Enter item name" />
         <button id="save4" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
       </div>
       </form>
@@ -67,7 +68,7 @@
       <form id="Todo4">
         <div class="row" >
         <label id="hour-1">1PM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
+        <input type="text" class="col-9" id="userinput" name="plan-input" onkeyup='saveValue(this);' placeholder="Enter item name" />
         <button id="save5" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
       </div>
       </form>
@@ -75,7 +76,7 @@
       <form id="Todo5">
         <div class="row" >
         <label id="hour-2">2PM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
+        <input type="text" class="col-9" id="userinput" name="plan-input" onkeyup='saveValue(this);' placeholder="Enter item name" />
         <button id="save6" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
       </div>
       </form>
@@ -83,7 +84,7 @@
       <form id="Todo6">
         <div class="row" >
         <label id="hour-3">3PM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
+        <input type="text" class="col-9" id="userinput" name="plan-input" onkeyup='saveValue(this);' placeholder="Enter item name" />
         <button id="save7" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
       </div>
       </form>
@@ -91,7 +92,7 @@
       <form id="Todo7">
         <div class="row" >
         <label id="hour-4">4PM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
+        <input type="text" class="col-9" id="userinput" name="plan-input" onkeyup='saveValue(this);' placeholder="Enter item name" />
         <button id="save8" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
       </div>
       </form>
@@ -99,7 +100,7 @@
       <form id="Todo8">
         <div class="row" >
         <label id="hour-5">5PM</label>
-        <input type="text" class="col-9" id="userinput" name="plan-input" placeholder="Enter item name" />
+        <input type="text" class="col-9" id="userinput" name="plan-input" onkeyup='saveValue(this);' placeholder="Enter item name" />
         <button id="save9" class="saveBtn btn-lg"><i class="fa fa-folder"></i></button>
       </div>
       </form>
